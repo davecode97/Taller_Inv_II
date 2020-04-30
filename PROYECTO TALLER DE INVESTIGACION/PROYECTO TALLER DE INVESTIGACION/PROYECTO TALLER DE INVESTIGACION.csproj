@@ -52,8 +52,62 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="InicioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InicioForm.Designer.cs">
+      <DependentUpon>InicioForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Referencia1-1Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Referencia1-1Form.Designer.cs">
+      <DependentUpon>Referencia1-1Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Referencia1-2Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Referencia1-2Form.Designer.cs">
+      <DependentUpon>Referencia1-2Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Referencia1-3Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Referencia1-3Form.Designer.cs">
+      <DependentUpon>Referencia1-3Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Referencia1-4Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Referencia1-4Form.Designer.cs">
+      <DependentUpon>Referencia1-4Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Referencia1ResultadosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Referencia1ResultadosForm.Designer.cs">
+      <DependentUpon>Referencia1ResultadosForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResultadosFinalesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResultadosFinalesForm.Designer.cs">
+      <DependentUpon>ResultadosFinalesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TerminarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TerminarForm.Designer.cs">
+      <DependentUpon>TerminarForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InicioForm.resx">
+      <DependentUpon>InicioForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +117,27 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Referencia1-1Form.resx">
+      <DependentUpon>Referencia1-1Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Referencia1-2Form.resx">
+      <DependentUpon>Referencia1-2Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Referencia1-3Form.resx">
+      <DependentUpon>Referencia1-3Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Referencia1-4Form.resx">
+      <DependentUpon>Referencia1-4Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Referencia1ResultadosForm.resx">
+      <DependentUpon>Referencia1ResultadosForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultadosFinalesForm.resx">
+      <DependentUpon>ResultadosFinalesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TerminarForm.resx">
+      <DependentUpon>TerminarForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
