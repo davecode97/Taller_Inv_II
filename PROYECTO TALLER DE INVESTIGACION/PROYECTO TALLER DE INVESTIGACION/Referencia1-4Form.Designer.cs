@@ -28,8 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnReferenciaI4Atras = new System.Windows.Forms.Button();
-            this.btnReferenciaI4Terminar = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Referencia1_4Form));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -50,7 +49,9 @@
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.rbtnReferenciaI4Si5 = new System.Windows.Forms.RadioButton();
             this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnReferenciaI4Terminar = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnReferenciaI4Atras = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnCancelar = new Bunifu.Framework.UI.BunifuFlatButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -58,66 +59,56 @@
             this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
-            // btnReferenciaI4Atras
-            // 
-            this.btnReferenciaI4Atras.Location = new System.Drawing.Point(597, 387);
-            this.btnReferenciaI4Atras.Name = "btnReferenciaI4Atras";
-            this.btnReferenciaI4Atras.Size = new System.Drawing.Size(75, 23);
-            this.btnReferenciaI4Atras.TabIndex = 18;
-            this.btnReferenciaI4Atras.Text = "Atras";
-            this.btnReferenciaI4Atras.UseVisualStyleBackColor = true;
-            // 
-            // btnReferenciaI4Terminar
-            // 
-            this.btnReferenciaI4Terminar.Location = new System.Drawing.Point(706, 387);
-            this.btnReferenciaI4Terminar.Name = "btnReferenciaI4Terminar";
-            this.btnReferenciaI4Terminar.Size = new System.Drawing.Size(75, 23);
-            this.btnReferenciaI4Terminar.TabIndex = 17;
-            this.btnReferenciaI4Terminar.Text = "Terminar";
-            this.btnReferenciaI4Terminar.UseVisualStyleBackColor = true;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 33);
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(35, 36);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(205, 13);
+            this.label1.Size = new System.Drawing.Size(286, 17);
             this.label1.TabIndex = 19;
             this.label1.Text = "¿Ha tenido usted dificultades para dormir?";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 80);
+            this.label2.BackColor = System.Drawing.SystemColors.Control;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(35, 84);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(344, 13);
+            this.label2.Size = new System.Drawing.Size(482, 17);
             this.label2.TabIndex = 20;
             this.label2.Text = "¿Ha estado particularmente irritable o le han dado arranques de coraje?";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 127);
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(35, 131);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(199, 13);
+            this.label3.Size = new System.Drawing.Size(276, 17);
             this.label3.TabIndex = 21;
             this.label3.Text = "¿Ha tenido dificultad para concentrarse?";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 174);
+            this.label4.BackColor = System.Drawing.SystemColors.Control;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(35, 178);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(243, 13);
+            this.label4.Size = new System.Drawing.Size(335, 17);
             this.label4.TabIndex = 22;
             this.label4.Text = "¿Ha estado nervioso o constantemente en alerta?";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 221);
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(35, 224);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(251, 13);
+            this.label5.Size = new System.Drawing.Size(345, 17);
             this.label5.TabIndex = 23;
             this.label5.Text = "¿Se ha sobresaltado fácilmente por cualquier cosa?";
             // 
@@ -125,7 +116,7 @@
             // 
             this.groupBox1.Controls.Add(this.rbtnReferenciaI4Si1);
             this.groupBox1.Controls.Add(this.rbtnReferenciaI2No1);
-            this.groupBox1.Location = new System.Drawing.Point(696, 12);
+            this.groupBox1.Location = new System.Drawing.Point(669, 18);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(85, 41);
             this.groupBox1.TabIndex = 24;
@@ -145,7 +136,7 @@
             // rbtnReferenciaI2No1
             // 
             this.rbtnReferenciaI2No1.AutoSize = true;
-            this.rbtnReferenciaI2No1.Location = new System.Drawing.Point(46, 19);
+            this.rbtnReferenciaI2No1.Location = new System.Drawing.Point(40, 18);
             this.rbtnReferenciaI2No1.Name = "rbtnReferenciaI2No1";
             this.rbtnReferenciaI2No1.Size = new System.Drawing.Size(39, 17);
             this.rbtnReferenciaI2No1.TabIndex = 3;
@@ -155,9 +146,10 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.SystemColors.Control;
             this.groupBox2.Controls.Add(this.rbtnReferenciaI4Si2);
             this.groupBox2.Controls.Add(this.radioButton2);
-            this.groupBox2.Location = new System.Drawing.Point(696, 59);
+            this.groupBox2.Location = new System.Drawing.Point(669, 65);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(85, 41);
             this.groupBox2.TabIndex = 25;
@@ -189,7 +181,7 @@
             // 
             this.groupBox3.Controls.Add(this.rbtnReferenciaI4Si3);
             this.groupBox3.Controls.Add(this.radioButton4);
-            this.groupBox3.Location = new System.Drawing.Point(696, 106);
+            this.groupBox3.Location = new System.Drawing.Point(669, 112);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(85, 41);
             this.groupBox3.TabIndex = 25;
@@ -219,9 +211,10 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.BackColor = System.Drawing.SystemColors.Control;
             this.groupBox4.Controls.Add(this.rbtnReferenciaI4Si4);
             this.groupBox4.Controls.Add(this.radioButton6);
-            this.groupBox4.Location = new System.Drawing.Point(696, 153);
+            this.groupBox4.Location = new System.Drawing.Point(669, 159);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(85, 41);
             this.groupBox4.TabIndex = 26;
@@ -253,7 +246,7 @@
             // 
             this.groupBox5.Controls.Add(this.rbtnReferenciaI4Si5);
             this.groupBox5.Controls.Add(this.radioButton8);
-            this.groupBox5.Location = new System.Drawing.Point(696, 200);
+            this.groupBox5.Location = new System.Drawing.Point(669, 206);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(85, 41);
             this.groupBox5.TabIndex = 27;
@@ -273,7 +266,7 @@
             // radioButton8
             // 
             this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(46, 19);
+            this.radioButton8.Location = new System.Drawing.Point(40, 18);
             this.radioButton8.Name = "radioButton8";
             this.radioButton8.Size = new System.Drawing.Size(39, 17);
             this.radioButton8.TabIndex = 3;
@@ -281,21 +274,118 @@
             this.radioButton8.Text = "No";
             this.radioButton8.UseVisualStyleBackColor = true;
             // 
+            // btnReferenciaI4Terminar
+            // 
+            this.btnReferenciaI4Terminar.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.btnReferenciaI4Terminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
+            this.btnReferenciaI4Terminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnReferenciaI4Terminar.BorderRadius = 5;
+            this.btnReferenciaI4Terminar.ButtonText = "Terminar";
+            this.btnReferenciaI4Terminar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReferenciaI4Terminar.DisabledColor = System.Drawing.Color.Gray;
+            this.btnReferenciaI4Terminar.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnReferenciaI4Terminar.Iconimage = null;
+            this.btnReferenciaI4Terminar.Iconimage_right = null;
+            this.btnReferenciaI4Terminar.Iconimage_right_Selected = null;
+            this.btnReferenciaI4Terminar.Iconimage_Selected = null;
+            this.btnReferenciaI4Terminar.IconMarginLeft = 0;
+            this.btnReferenciaI4Terminar.IconMarginRight = 0;
+            this.btnReferenciaI4Terminar.IconRightVisible = true;
+            this.btnReferenciaI4Terminar.IconRightZoom = 0D;
+            this.btnReferenciaI4Terminar.IconVisible = true;
+            this.btnReferenciaI4Terminar.IconZoom = 50D;
+            this.btnReferenciaI4Terminar.IsTab = false;
+            this.btnReferenciaI4Terminar.Location = new System.Drawing.Point(621, 373);
+            this.btnReferenciaI4Terminar.Name = "btnReferenciaI4Terminar";
+            this.btnReferenciaI4Terminar.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.btnReferenciaI4Terminar.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.btnReferenciaI4Terminar.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnReferenciaI4Terminar.selected = false;
+            this.btnReferenciaI4Terminar.Size = new System.Drawing.Size(133, 37);
+            this.btnReferenciaI4Terminar.TabIndex = 42;
+            this.btnReferenciaI4Terminar.Text = "Terminar";
+            this.btnReferenciaI4Terminar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnReferenciaI4Terminar.Textcolor = System.Drawing.Color.White;
+            this.btnReferenciaI4Terminar.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // btnReferenciaI4Atras
+            // 
+            this.btnReferenciaI4Atras.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.btnReferenciaI4Atras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.btnReferenciaI4Atras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnReferenciaI4Atras.BorderRadius = 5;
+            this.btnReferenciaI4Atras.ButtonText = "Atras";
+            this.btnReferenciaI4Atras.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReferenciaI4Atras.DisabledColor = System.Drawing.Color.Gray;
+            this.btnReferenciaI4Atras.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnReferenciaI4Atras.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnReferenciaI4Atras.Iconimage")));
+            this.btnReferenciaI4Atras.Iconimage_right = null;
+            this.btnReferenciaI4Atras.Iconimage_right_Selected = null;
+            this.btnReferenciaI4Atras.Iconimage_Selected = null;
+            this.btnReferenciaI4Atras.IconMarginLeft = 0;
+            this.btnReferenciaI4Atras.IconMarginRight = 0;
+            this.btnReferenciaI4Atras.IconRightVisible = true;
+            this.btnReferenciaI4Atras.IconRightZoom = 0D;
+            this.btnReferenciaI4Atras.IconVisible = true;
+            this.btnReferenciaI4Atras.IconZoom = 50D;
+            this.btnReferenciaI4Atras.IsTab = false;
+            this.btnReferenciaI4Atras.Location = new System.Drawing.Point(465, 373);
+            this.btnReferenciaI4Atras.Name = "btnReferenciaI4Atras";
+            this.btnReferenciaI4Atras.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.btnReferenciaI4Atras.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.btnReferenciaI4Atras.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnReferenciaI4Atras.selected = false;
+            this.btnReferenciaI4Atras.Size = new System.Drawing.Size(133, 37);
+            this.btnReferenciaI4Atras.TabIndex = 41;
+            this.btnReferenciaI4Atras.Text = "Atras";
+            this.btnReferenciaI4Atras.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnReferenciaI4Atras.Textcolor = System.Drawing.Color.White;
+            this.btnReferenciaI4Atras.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(481, 387);
+            this.btnCancelar.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(69)))), ((int)(((byte)(0)))));
+            this.btnCancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(69)))), ((int)(((byte)(0)))));
+            this.btnCancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnCancelar.BorderRadius = 5;
+            this.btnCancelar.ButtonText = "Cancelar";
+            this.btnCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCancelar.DisabledColor = System.Drawing.Color.Gray;
+            this.btnCancelar.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnCancelar.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnCancelar.Iconimage")));
+            this.btnCancelar.Iconimage_right = null;
+            this.btnCancelar.Iconimage_right_Selected = null;
+            this.btnCancelar.Iconimage_Selected = null;
+            this.btnCancelar.IconMarginLeft = 0;
+            this.btnCancelar.IconMarginRight = 0;
+            this.btnCancelar.IconRightVisible = true;
+            this.btnCancelar.IconRightZoom = 0D;
+            this.btnCancelar.IconVisible = true;
+            this.btnCancelar.IconZoom = 50D;
+            this.btnCancelar.IsTab = false;
+            this.btnCancelar.Location = new System.Drawing.Point(38, 373);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
-            this.btnCancelar.TabIndex = 28;
+            this.btnCancelar.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(69)))), ((int)(((byte)(0)))));
+            this.btnCancelar.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(50)))), ((int)(((byte)(0)))));
+            this.btnCancelar.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnCancelar.selected = false;
+            this.btnCancelar.Size = new System.Drawing.Size(133, 37);
+            this.btnCancelar.TabIndex = 43;
             this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnCancelar.Textcolor = System.Drawing.Color.White;
+            this.btnCancelar.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // Referencia1_4Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(796, 445);
             this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnReferenciaI4Terminar);
+            this.Controls.Add(this.btnReferenciaI4Atras);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
@@ -306,8 +396,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnReferenciaI4Atras);
-            this.Controls.Add(this.btnReferenciaI4Terminar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Referencia1_4Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -328,9 +416,6 @@
         }
 
         #endregion
-
-        public System.Windows.Forms.Button btnReferenciaI4Atras;
-        public System.Windows.Forms.Button btnReferenciaI4Terminar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -351,6 +436,8 @@
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.RadioButton rbtnReferenciaI4Si5;
         private System.Windows.Forms.RadioButton radioButton8;
-        public System.Windows.Forms.Button btnCancelar;
+        public Bunifu.Framework.UI.BunifuFlatButton btnReferenciaI4Terminar;
+        public Bunifu.Framework.UI.BunifuFlatButton btnReferenciaI4Atras;
+        public Bunifu.Framework.UI.BunifuFlatButton btnCancelar;
     }
 }

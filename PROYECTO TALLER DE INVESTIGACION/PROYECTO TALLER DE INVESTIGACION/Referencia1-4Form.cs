@@ -16,5 +16,10 @@ namespace PROYECTO_TALLER_DE_INVESTIGACION
         {
             InitializeComponent();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

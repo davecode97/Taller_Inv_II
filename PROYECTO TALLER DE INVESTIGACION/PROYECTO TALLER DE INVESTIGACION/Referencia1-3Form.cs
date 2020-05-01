@@ -16,5 +16,6 @@ namespace PROYECTO_TALLER_DE_INVESTIGACION
         {
             InitializeComponent();
         }
+
     }
 }
