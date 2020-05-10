@@ -40,37 +40,42 @@
             this.btnCancelar = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnReferenciaI2Atras = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnReferenciaI2Sig = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.panel_Inicio = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.panel_Inicio.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(35, 30);
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(34, 94);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(576, 17);
+            this.label1.Size = new System.Drawing.Size(476, 40);
             this.label1.TabIndex = 0;
-            this.label1.Text = "¿Ha tenido recuerdos recurrentes sobre el acontecimiento que le provocan malestar" +
-    "es?";
+            this.label1.Text = "¿Ha tenido recuerdos recurrentes sobre el acontecimiento que \r\nle provocan malest" +
+    "ares?";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(35, 87);
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(35, 155);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(621, 17);
+            this.label2.Size = new System.Drawing.Size(509, 40);
             this.label2.TabIndex = 1;
-            this.label2.Text = "¿Ha tenido sueños de carácter recurrente sobre el acontecimiento, que le producen" +
-    " malestar?";
+            this.label2.Text = "¿Ha tenido sueños de carácter recurrente sobre el acontecimiento, \r\nque le produc" +
+    "en malestar?";
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.rbtnReferenciaI2Si2);
             this.groupBox2.Controls.Add(this.rbtnReferenciaI2No2);
-            this.groupBox2.Location = new System.Drawing.Point(669, 68);
+            this.groupBox2.Location = new System.Drawing.Point(669, 154);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(85, 41);
             this.groupBox2.TabIndex = 10;
@@ -79,9 +84,10 @@
             // rbtnReferenciaI2Si2
             // 
             this.rbtnReferenciaI2Si2.AutoSize = true;
-            this.rbtnReferenciaI2Si2.Location = new System.Drawing.Point(6, 19);
+            this.rbtnReferenciaI2Si2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.rbtnReferenciaI2Si2.Location = new System.Drawing.Point(3, 16);
             this.rbtnReferenciaI2Si2.Name = "rbtnReferenciaI2Si2";
-            this.rbtnReferenciaI2Si2.Size = new System.Drawing.Size(34, 17);
+            this.rbtnReferenciaI2Si2.Size = new System.Drawing.Size(34, 22);
             this.rbtnReferenciaI2Si2.TabIndex = 2;
             this.rbtnReferenciaI2Si2.TabStop = true;
             this.rbtnReferenciaI2Si2.Text = "Si";
@@ -90,10 +96,11 @@
             // rbtnReferenciaI2No2
             // 
             this.rbtnReferenciaI2No2.AutoSize = true;
-            this.rbtnReferenciaI2No2.BackColor = System.Drawing.SystemColors.Control;
-            this.rbtnReferenciaI2No2.Location = new System.Drawing.Point(40, 18);
+            this.rbtnReferenciaI2No2.BackColor = System.Drawing.Color.White;
+            this.rbtnReferenciaI2No2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.rbtnReferenciaI2No2.Location = new System.Drawing.Point(43, 16);
             this.rbtnReferenciaI2No2.Name = "rbtnReferenciaI2No2";
-            this.rbtnReferenciaI2No2.Size = new System.Drawing.Size(39, 17);
+            this.rbtnReferenciaI2No2.Size = new System.Drawing.Size(39, 22);
             this.rbtnReferenciaI2No2.TabIndex = 3;
             this.rbtnReferenciaI2No2.TabStop = true;
             this.rbtnReferenciaI2No2.Text = "No";
@@ -103,7 +110,7 @@
             // 
             this.groupBox1.Controls.Add(this.rbtnReferenciaI2Si1);
             this.groupBox1.Controls.Add(this.rbtnReferenciaI2No1);
-            this.groupBox1.Location = new System.Drawing.Point(669, 12);
+            this.groupBox1.Location = new System.Drawing.Point(669, 96);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(85, 41);
             this.groupBox1.TabIndex = 25;
@@ -112,9 +119,10 @@
             // rbtnReferenciaI2Si1
             // 
             this.rbtnReferenciaI2Si1.AutoSize = true;
-            this.rbtnReferenciaI2Si1.Location = new System.Drawing.Point(6, 19);
+            this.rbtnReferenciaI2Si1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.rbtnReferenciaI2Si1.Location = new System.Drawing.Point(3, 16);
             this.rbtnReferenciaI2Si1.Name = "rbtnReferenciaI2Si1";
-            this.rbtnReferenciaI2Si1.Size = new System.Drawing.Size(34, 17);
+            this.rbtnReferenciaI2Si1.Size = new System.Drawing.Size(34, 22);
             this.rbtnReferenciaI2Si1.TabIndex = 2;
             this.rbtnReferenciaI2Si1.TabStop = true;
             this.rbtnReferenciaI2Si1.Text = "Si";
@@ -123,10 +131,11 @@
             // rbtnReferenciaI2No1
             // 
             this.rbtnReferenciaI2No1.AutoSize = true;
-            this.rbtnReferenciaI2No1.BackColor = System.Drawing.SystemColors.Control;
-            this.rbtnReferenciaI2No1.Location = new System.Drawing.Point(40, 18);
+            this.rbtnReferenciaI2No1.BackColor = System.Drawing.Color.White;
+            this.rbtnReferenciaI2No1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.rbtnReferenciaI2No1.Location = new System.Drawing.Point(43, 16);
             this.rbtnReferenciaI2No1.Name = "rbtnReferenciaI2No1";
-            this.rbtnReferenciaI2No1.Size = new System.Drawing.Size(39, 17);
+            this.rbtnReferenciaI2No1.Size = new System.Drawing.Size(39, 22);
             this.rbtnReferenciaI2No1.TabIndex = 3;
             this.rbtnReferenciaI2No1.TabStop = true;
             this.rbtnReferenciaI2No1.Text = "No";
@@ -155,6 +164,7 @@
             this.btnCancelar.IconZoom = 50D;
             this.btnCancelar.IsTab = false;
             this.btnCancelar.Location = new System.Drawing.Point(38, 373);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(69)))), ((int)(((byte)(0)))));
             this.btnCancelar.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(50)))), ((int)(((byte)(0)))));
@@ -235,12 +245,45 @@
             this.btnReferenciaI2Sig.Textcolor = System.Drawing.Color.White;
             this.btnReferenciaI2Sig.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
+            // panel_Inicio
+            // 
+            this.panel_Inicio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
+            this.panel_Inicio.Controls.Add(this.pictureBox1);
+            this.panel_Inicio.Controls.Add(this.label4);
+            this.panel_Inicio.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel_Inicio.Location = new System.Drawing.Point(0, 0);
+            this.panel_Inicio.Name = "panel_Inicio";
+            this.panel_Inicio.Size = new System.Drawing.Size(796, 75);
+            this.panel_Inicio.TabIndex = 38;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(709, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(84, 69);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(12, 25);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(552, 22);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Sección II.- Recuerdos persistentes sobre el acontecimiento ";
+            // 
             // Referencia1_2Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(796, 445);
+            this.Controls.Add(this.panel_Inicio);
             this.Controls.Add(this.btnReferenciaI2Sig);
             this.Controls.Add(this.btnReferenciaI2Atras);
             this.Controls.Add(this.btnCancelar);
@@ -256,6 +299,9 @@
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.panel_Inicio.ResumeLayout(false);
+            this.panel_Inicio.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -274,5 +320,8 @@
         public Bunifu.Framework.UI.BunifuFlatButton btnCancelar;
         public Bunifu.Framework.UI.BunifuFlatButton btnReferenciaI2Atras;
         public Bunifu.Framework.UI.BunifuFlatButton btnReferenciaI2Sig;
+        private System.Windows.Forms.Panel panel_Inicio;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label4;
     }
 }

@@ -50,17 +50,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Datos_Empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Datos_Empleado.Designer.cs">
+      <DependentUpon>Datos_Empleado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Referencia1_4.2Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Referencia1_4.2Form.Designer.cs">
+      <DependentUpon>Referencia1_4.2Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Referencia1-3.3Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Referencia1-3.3Form.Designer.cs">
+      <DependentUpon>Referencia1-3.3Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="InicioForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="InicioForm.Designer.cs">
       <DependentUpon>InicioForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InstruccionesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstruccionesForm.Designer.cs">
+      <DependentUpon>InstruccionesForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -76,17 +100,23 @@
     <Compile Include="Referencia1-2Form.Designer.cs">
       <DependentUpon>Referencia1-2Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="Referencia1-3Form.cs">
+    <Compile Include="Referencia1-3.1Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Referencia1-3Form.Designer.cs">
-      <DependentUpon>Referencia1-3Form.cs</DependentUpon>
+    <Compile Include="Referencia1-3.1Form.Designer.cs">
+      <DependentUpon>Referencia1-3.1Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="Referencia1-4Form.cs">
+    <Compile Include="Referencia1-3.2Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Referencia1-4Form.Designer.cs">
-      <DependentUpon>Referencia1-4Form.cs</DependentUpon>
+    <Compile Include="Referencia1-3.2Form.Designer.cs">
+      <DependentUpon>Referencia1-3.2Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Referencia1-4.1Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Referencia1-4.1Form.Designer.cs">
+      <DependentUpon>Referencia1-4.1Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Referencia1ResultadosForm.cs">
       <SubType>Form</SubType>
@@ -106,11 +136,17 @@
     <Compile Include="TerminarForm.Designer.cs">
       <DependentUpon>TerminarForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Datos_Empleado.resx">
+      <DependentUpon>Datos_Empleado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InicioForm.resx">
       <DependentUpon>InicioForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstruccionesForm.resx">
+      <DependentUpon>InstruccionesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -127,14 +163,23 @@
     <EmbeddedResource Include="Referencia1-2Form.resx">
       <DependentUpon>Referencia1-2Form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Referencia1-3Form.resx">
-      <DependentUpon>Referencia1-3Form.cs</DependentUpon>
+    <EmbeddedResource Include="Referencia1-3.1Form.resx">
+      <DependentUpon>Referencia1-3.1Form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Referencia1-4Form.resx">
-      <DependentUpon>Referencia1-4Form.cs</DependentUpon>
+    <EmbeddedResource Include="Referencia1-3.2Form.resx">
+      <DependentUpon>Referencia1-3.2Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Referencia1-3.3Form.resx">
+      <DependentUpon>Referencia1-3.3Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Referencia1-4.1Form.resx">
+      <DependentUpon>Referencia1-4.1Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Referencia1ResultadosForm.resx">
       <DependentUpon>Referencia1ResultadosForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Referencia1_4.2Form.resx">
+      <DependentUpon>Referencia1_4.2Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ResultadosFinalesForm.resx">
       <DependentUpon>ResultadosFinalesForm.cs</DependentUpon>

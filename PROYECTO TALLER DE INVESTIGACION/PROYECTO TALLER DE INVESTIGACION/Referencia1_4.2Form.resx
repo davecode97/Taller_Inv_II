@@ -117,22 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Accidente que tenga como consecuencia la muerte, la pérdida de un miembro 
-o una lesión grave?
-
-Asaltos?
-
-Actos violentos que derivaron en lesiones graves?
-
-Secuestro?
-
-Amenaza?, o 
-
-Cualquier otro que ponga en riesgo su vida o salud, y/o la de otras personas?</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnReferenciaI1Sig.Iconimage_right" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnReferenciaI2Sig.Iconimage_right" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAATlJREFUWEft
         lr9KQnEYho8oWBDV1BK0BtYFNCRdQLi0O3kBTnUNNbZKQ80iiEvgEtFqWxcQlJtQixH9Oz0vvIJjy+8T
@@ -141,6 +127,17 @@ Cualquier otro que ponga en riesgo su vida o salud, y/o la de otras personas?</v
         AA8Y/9YkWsMnXQAjP46D6PwB934cA8E6zn4Hd7juKT3EjvBdZdCHq+opPcRaqNeyuMCyp/QQO0a9jsUZ
         xrwNFcL570HbU3qIVfBSZfjApqf0EFvCvsqg12/DU3qIreKNyjDBPU/pIbaBI5XhGXc8xUBw4X9KF/u3
         vOCfkmW/LZiRQLTVwk4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnReferenciaI2Atras.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAVJJREFUWEft
+        l0srhHEcRt9cx11jmBJym0hWyNe1kg0loUQSSUrJJRaEXHLZ4BO8zqPHN/D/Sc2ps3mfxfnNTE0zWZXf
+        IM/zHlzHYT+Kg2gXnqJY8+MYCJbx8jud50fY6Sk9xPTKT1QGvQMlT+khVsRjleEcuz2lh1g7HqgMF1j2
+        lB5ibbivMlxjn6f0EGvFPZXhBvs9pYdYATdVhlsc8JQeYopvqAyPOOopPcQaUd9w4gkrntJDrA6XVIZn
+        HPOUHmI1OKcyvOO0pxgI6tUvqg7xBwiitTivC+ATZz3FQVRHLOgC+MAZT3EQrcdlXQD6OKY8xUG0AVd0
+        AbzhpKc4iOqIVV0ArzjhKQ6iTbilC+AFxz3FQbQZt3UBPOCIpziI6ogdXQD3OOQpDqItuKsL4A4HPcVB
+        tAMPdQFcYa+nOIiW8EwXQOzP8h8I/90fkyr/nCz7Ai71twYeRS06AAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="btnCancelar.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

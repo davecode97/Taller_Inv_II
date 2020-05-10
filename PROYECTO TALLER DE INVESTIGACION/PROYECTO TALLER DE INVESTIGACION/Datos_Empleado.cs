@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace PROYECTO_TALLER_DE_INVESTIGACION
 {
-    public partial class Referencia1_1Form : Form
+    public partial class Datos_Empleado : Form
     {
-        public Referencia1_1Form()
+        public Datos_Empleado()
         {
             InitializeComponent();
         }
-
     }
 }
