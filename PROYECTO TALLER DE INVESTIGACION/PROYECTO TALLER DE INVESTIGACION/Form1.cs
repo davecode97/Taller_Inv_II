@@ -237,12 +237,13 @@ namespace PROYECTO_TALLER_DE_INVESTIGACION
             referencia_4_1 = new Referencia1_4Form();
 
             referencia_4_1.MdiParent = this;
-            referencia_4_1.Hide();
+            referencia_3_3.Hide();
+            if (referencia_4_2 != null) referencia_4_2.Hide();
             referencia_4_1.Show();
 
             //Prestar atencion si se duplica form en contenedor.
-            referencia_4_1.btnReferenciaI4Atras.Click += MostrarReferencia_3_3;
-            referencia_4_1.btnReferenciaI4Terminar.Click += TerminarCuestionario;
+            referencia_4_1.btnAtras.Click += MostrarReferencia_3_3;
+            referencia_4_1.btnSiguiente.Click += MostrarReferencia_4_2;
             referencia_4_1.btnCancelar.Click += CancelarReferencia_4_1;
         }
 
@@ -253,9 +254,10 @@ namespace PROYECTO_TALLER_DE_INVESTIGACION
             referencia_4_2.MdiParent = this;
             referencia_4_1.Hide();
             if (terminar != null) terminar.Hide();
+            referencia_4_2.Show();
 
-            referencia_4_2.btnReferenciaI2Atras.Click += MostrarReferencia_4_1;
-            referencia_4_2.btnReferenciaI2Sig.Click += TerminarCuestionario;
+            referencia_4_2.btnAtras.Click += MostrarReferencia_4_1;
+            referencia_4_2.btnTerminar.Click += TerminarCuestionario;
             referencia_4_2.btnCancelar.Click += CancelarReferencia4_2;
         }
         #endregion

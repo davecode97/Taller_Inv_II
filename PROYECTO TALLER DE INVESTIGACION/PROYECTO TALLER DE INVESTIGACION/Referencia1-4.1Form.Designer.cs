@@ -29,8 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Referencia1_4Form));
-            this.btnReferenciaI4Terminar = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btnReferenciaI4Atras = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnAtras = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnCancelar = new Bunifu.Framework.UI.BunifuFlatButton();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.rbtnReferenciaI4Si3 = new System.Windows.Forms.RadioButton();
@@ -47,6 +46,7 @@
             this.panel_Inicio = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.btnSiguiente = new Bunifu.Framework.UI.BunifuFlatButton();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -54,73 +54,39 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnReferenciaI4Terminar
+            // btnAtras
             // 
-            this.btnReferenciaI4Terminar.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.btnReferenciaI4Terminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.btnReferenciaI4Terminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnReferenciaI4Terminar.BorderRadius = 5;
-            this.btnReferenciaI4Terminar.ButtonText = "Terminar";
-            this.btnReferenciaI4Terminar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnReferenciaI4Terminar.DisabledColor = System.Drawing.Color.Gray;
-            this.btnReferenciaI4Terminar.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnReferenciaI4Terminar.Iconimage = null;
-            this.btnReferenciaI4Terminar.Iconimage_right = null;
-            this.btnReferenciaI4Terminar.Iconimage_right_Selected = null;
-            this.btnReferenciaI4Terminar.Iconimage_Selected = null;
-            this.btnReferenciaI4Terminar.IconMarginLeft = 0;
-            this.btnReferenciaI4Terminar.IconMarginRight = 0;
-            this.btnReferenciaI4Terminar.IconRightVisible = true;
-            this.btnReferenciaI4Terminar.IconRightZoom = 0D;
-            this.btnReferenciaI4Terminar.IconVisible = true;
-            this.btnReferenciaI4Terminar.IconZoom = 50D;
-            this.btnReferenciaI4Terminar.IsTab = false;
-            this.btnReferenciaI4Terminar.Location = new System.Drawing.Point(621, 373);
-            this.btnReferenciaI4Terminar.Name = "btnReferenciaI4Terminar";
-            this.btnReferenciaI4Terminar.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.btnReferenciaI4Terminar.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.btnReferenciaI4Terminar.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnReferenciaI4Terminar.selected = false;
-            this.btnReferenciaI4Terminar.Size = new System.Drawing.Size(133, 37);
-            this.btnReferenciaI4Terminar.TabIndex = 42;
-            this.btnReferenciaI4Terminar.Text = "Terminar";
-            this.btnReferenciaI4Terminar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnReferenciaI4Terminar.Textcolor = System.Drawing.Color.White;
-            this.btnReferenciaI4Terminar.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // btnReferenciaI4Atras
-            // 
-            this.btnReferenciaI4Atras.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.btnReferenciaI4Atras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.btnReferenciaI4Atras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnReferenciaI4Atras.BorderRadius = 5;
-            this.btnReferenciaI4Atras.ButtonText = "Atras";
-            this.btnReferenciaI4Atras.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnReferenciaI4Atras.DisabledColor = System.Drawing.Color.Gray;
-            this.btnReferenciaI4Atras.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnReferenciaI4Atras.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnReferenciaI4Atras.Iconimage")));
-            this.btnReferenciaI4Atras.Iconimage_right = null;
-            this.btnReferenciaI4Atras.Iconimage_right_Selected = null;
-            this.btnReferenciaI4Atras.Iconimage_Selected = null;
-            this.btnReferenciaI4Atras.IconMarginLeft = 0;
-            this.btnReferenciaI4Atras.IconMarginRight = 0;
-            this.btnReferenciaI4Atras.IconRightVisible = true;
-            this.btnReferenciaI4Atras.IconRightZoom = 0D;
-            this.btnReferenciaI4Atras.IconVisible = true;
-            this.btnReferenciaI4Atras.IconZoom = 50D;
-            this.btnReferenciaI4Atras.IsTab = false;
-            this.btnReferenciaI4Atras.Location = new System.Drawing.Point(465, 373);
-            this.btnReferenciaI4Atras.Name = "btnReferenciaI4Atras";
-            this.btnReferenciaI4Atras.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.btnReferenciaI4Atras.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.btnReferenciaI4Atras.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnReferenciaI4Atras.selected = false;
-            this.btnReferenciaI4Atras.Size = new System.Drawing.Size(133, 37);
-            this.btnReferenciaI4Atras.TabIndex = 41;
-            this.btnReferenciaI4Atras.Text = "Atras";
-            this.btnReferenciaI4Atras.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnReferenciaI4Atras.Textcolor = System.Drawing.Color.White;
-            this.btnReferenciaI4Atras.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAtras.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.btnAtras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.btnAtras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnAtras.BorderRadius = 5;
+            this.btnAtras.ButtonText = "Atras";
+            this.btnAtras.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAtras.DisabledColor = System.Drawing.Color.Gray;
+            this.btnAtras.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnAtras.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnAtras.Iconimage")));
+            this.btnAtras.Iconimage_right = null;
+            this.btnAtras.Iconimage_right_Selected = null;
+            this.btnAtras.Iconimage_Selected = null;
+            this.btnAtras.IconMarginLeft = 0;
+            this.btnAtras.IconMarginRight = 0;
+            this.btnAtras.IconRightVisible = true;
+            this.btnAtras.IconRightZoom = 0D;
+            this.btnAtras.IconVisible = true;
+            this.btnAtras.IconZoom = 50D;
+            this.btnAtras.IsTab = false;
+            this.btnAtras.Location = new System.Drawing.Point(465, 373);
+            this.btnAtras.Name = "btnAtras";
+            this.btnAtras.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.btnAtras.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.btnAtras.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnAtras.selected = false;
+            this.btnAtras.Size = new System.Drawing.Size(133, 37);
+            this.btnAtras.TabIndex = 41;
+            this.btnAtras.Text = "Atras";
+            this.btnAtras.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnAtras.Textcolor = System.Drawing.Color.White;
+            this.btnAtras.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // btnCancelar
             // 
@@ -324,12 +290,47 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "Sección IV.- Afectación (durante el último mes):";
             // 
+            // btnSiguiente
+            // 
+            this.btnSiguiente.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.btnSiguiente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.btnSiguiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSiguiente.BorderRadius = 5;
+            this.btnSiguiente.ButtonText = "Siguiente";
+            this.btnSiguiente.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSiguiente.DisabledColor = System.Drawing.Color.Gray;
+            this.btnSiguiente.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnSiguiente.Iconimage = null;
+            this.btnSiguiente.Iconimage_right = ((System.Drawing.Image)(resources.GetObject("btnSiguiente.Iconimage_right")));
+            this.btnSiguiente.Iconimage_right_Selected = null;
+            this.btnSiguiente.Iconimage_Selected = null;
+            this.btnSiguiente.IconMarginLeft = 0;
+            this.btnSiguiente.IconMarginRight = 0;
+            this.btnSiguiente.IconRightVisible = true;
+            this.btnSiguiente.IconRightZoom = 0D;
+            this.btnSiguiente.IconVisible = true;
+            this.btnSiguiente.IconZoom = 50D;
+            this.btnSiguiente.IsTab = false;
+            this.btnSiguiente.Location = new System.Drawing.Point(621, 373);
+            this.btnSiguiente.Name = "btnSiguiente";
+            this.btnSiguiente.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.btnSiguiente.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.btnSiguiente.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnSiguiente.selected = false;
+            this.btnSiguiente.Size = new System.Drawing.Size(133, 37);
+            this.btnSiguiente.TabIndex = 54;
+            this.btnSiguiente.Text = "Siguiente";
+            this.btnSiguiente.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnSiguiente.Textcolor = System.Drawing.Color.White;
+            this.btnSiguiente.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
             // Referencia1_4Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(796, 445);
+            this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.panel_Inicio);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -338,8 +339,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.btnReferenciaI4Terminar);
-            this.Controls.Add(this.btnReferenciaI4Atras);
+            this.Controls.Add(this.btnAtras);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Referencia1_4Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -359,8 +359,7 @@
         }
 
         #endregion
-        public Bunifu.Framework.UI.BunifuFlatButton btnReferenciaI4Terminar;
-        public Bunifu.Framework.UI.BunifuFlatButton btnReferenciaI4Atras;
+        public Bunifu.Framework.UI.BunifuFlatButton btnAtras;
         public Bunifu.Framework.UI.BunifuFlatButton btnCancelar;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.RadioButton rbtnReferenciaI4Si3;
@@ -377,5 +376,6 @@
         private System.Windows.Forms.Panel panel_Inicio;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label4;
+        public Bunifu.Framework.UI.BunifuFlatButton btnSiguiente;
     }
 }
