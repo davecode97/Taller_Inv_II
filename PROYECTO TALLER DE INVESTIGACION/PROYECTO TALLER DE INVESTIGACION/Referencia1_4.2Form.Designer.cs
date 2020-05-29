@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
-            this.btnAtras = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnReferenciaI2Atras = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnCancelar = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel_Inicio = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.rbtnReferenciaI4Si4 = new System.Windows.Forms.RadioButton();
+            this.rbtnReferenciaI4No4 = new System.Windows.Forms.RadioButton();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.rbtnReferenciaI4Si5 = new System.Windows.Forms.RadioButton();
+            this.rbtnReferenciaI4No5 = new System.Windows.Forms.RadioButton();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.btnTerminar = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel_Inicio.SuspendLayout();
@@ -49,39 +49,39 @@
             this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
-            // btnAtras
+            // btnReferenciaI2Atras
             // 
-            this.btnAtras.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.btnAtras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.btnAtras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnAtras.BorderRadius = 5;
-            this.btnAtras.ButtonText = "Atras";
-            this.btnAtras.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAtras.DisabledColor = System.Drawing.Color.Gray;
-            this.btnAtras.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnAtras.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnAtras.Iconimage")));
-            this.btnAtras.Iconimage_right = null;
-            this.btnAtras.Iconimage_right_Selected = null;
-            this.btnAtras.Iconimage_Selected = null;
-            this.btnAtras.IconMarginLeft = 0;
-            this.btnAtras.IconMarginRight = 0;
-            this.btnAtras.IconRightVisible = true;
-            this.btnAtras.IconRightZoom = 0D;
-            this.btnAtras.IconVisible = true;
-            this.btnAtras.IconZoom = 50D;
-            this.btnAtras.IsTab = false;
-            this.btnAtras.Location = new System.Drawing.Point(465, 373);
-            this.btnAtras.Name = "btnAtras";
-            this.btnAtras.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.btnAtras.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.btnAtras.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnAtras.selected = false;
-            this.btnAtras.Size = new System.Drawing.Size(133, 37);
-            this.btnAtras.TabIndex = 38;
-            this.btnAtras.Text = "Atras";
-            this.btnAtras.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnAtras.Textcolor = System.Drawing.Color.White;
-            this.btnAtras.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReferenciaI2Atras.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.btnReferenciaI2Atras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.btnReferenciaI2Atras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnReferenciaI2Atras.BorderRadius = 5;
+            this.btnReferenciaI2Atras.ButtonText = "Atras";
+            this.btnReferenciaI2Atras.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReferenciaI2Atras.DisabledColor = System.Drawing.Color.Gray;
+            this.btnReferenciaI2Atras.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnReferenciaI2Atras.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnReferenciaI2Atras.Iconimage")));
+            this.btnReferenciaI2Atras.Iconimage_right = null;
+            this.btnReferenciaI2Atras.Iconimage_right_Selected = null;
+            this.btnReferenciaI2Atras.Iconimage_Selected = null;
+            this.btnReferenciaI2Atras.IconMarginLeft = 0;
+            this.btnReferenciaI2Atras.IconMarginRight = 0;
+            this.btnReferenciaI2Atras.IconRightVisible = true;
+            this.btnReferenciaI2Atras.IconRightZoom = 0D;
+            this.btnReferenciaI2Atras.IconVisible = true;
+            this.btnReferenciaI2Atras.IconZoom = 50D;
+            this.btnReferenciaI2Atras.IsTab = false;
+            this.btnReferenciaI2Atras.Location = new System.Drawing.Point(465, 373);
+            this.btnReferenciaI2Atras.Name = "btnReferenciaI2Atras";
+            this.btnReferenciaI2Atras.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.btnReferenciaI2Atras.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.btnReferenciaI2Atras.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnReferenciaI2Atras.selected = false;
+            this.btnReferenciaI2Atras.Size = new System.Drawing.Size(133, 37);
+            this.btnReferenciaI2Atras.TabIndex = 38;
+            this.btnReferenciaI2Atras.Text = "Atras";
+            this.btnReferenciaI2Atras.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnReferenciaI2Atras.Textcolor = System.Drawing.Color.White;
+            this.btnReferenciaI2Atras.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // btnCancelar
             // 
@@ -172,69 +172,73 @@
             this.label6.TabIndex = 23;
             this.label6.Text = "¿Se ha sobresaltado fácilmente por cualquier cosa?";
             // 
-            // radioButton1
+            // rbtnReferenciaI4Si4
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.radioButton1.Location = new System.Drawing.Point(3, 16);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(34, 22);
-            this.radioButton1.TabIndex = 2;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Si";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rbtnReferenciaI4Si4.AutoSize = true;
+            this.rbtnReferenciaI4Si4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.rbtnReferenciaI4Si4.Location = new System.Drawing.Point(3, 16);
+            this.rbtnReferenciaI4Si4.Name = "rbtnReferenciaI4Si4";
+            this.rbtnReferenciaI4Si4.Size = new System.Drawing.Size(34, 22);
+            this.rbtnReferenciaI4Si4.TabIndex = 2;
+            this.rbtnReferenciaI4Si4.TabStop = true;
+            this.rbtnReferenciaI4Si4.Text = "Si";
+            this.rbtnReferenciaI4Si4.UseVisualStyleBackColor = true;
+           
             // 
-            // radioButton3
+            // rbtnReferenciaI4No4
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.radioButton3.Location = new System.Drawing.Point(43, 16);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(39, 22);
-            this.radioButton3.TabIndex = 3;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "No";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rbtnReferenciaI4No4.AutoSize = true;
+            this.rbtnReferenciaI4No4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.rbtnReferenciaI4No4.Location = new System.Drawing.Point(43, 16);
+            this.rbtnReferenciaI4No4.Name = "rbtnReferenciaI4No4";
+            this.rbtnReferenciaI4No4.Size = new System.Drawing.Size(39, 22);
+            this.rbtnReferenciaI4No4.TabIndex = 3;
+            this.rbtnReferenciaI4No4.TabStop = true;
+            this.rbtnReferenciaI4No4.Text = "No";
+            this.rbtnReferenciaI4No4.UseVisualStyleBackColor = true;
+            
             // 
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.Color.White;
-            this.groupBox4.Controls.Add(this.radioButton1);
-            this.groupBox4.Controls.Add(this.radioButton3);
+            this.groupBox4.Controls.Add(this.rbtnReferenciaI4Si4);
+            this.groupBox4.Controls.Add(this.rbtnReferenciaI4No4);
             this.groupBox4.Location = new System.Drawing.Point(669, 81);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(85, 41);
             this.groupBox4.TabIndex = 26;
             this.groupBox4.TabStop = false;
             // 
-            // radioButton5
+            // rbtnReferenciaI4Si5
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.radioButton5.Location = new System.Drawing.Point(3, 16);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(34, 22);
-            this.radioButton5.TabIndex = 2;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "Si";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.rbtnReferenciaI4Si5.AutoSize = true;
+            this.rbtnReferenciaI4Si5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.rbtnReferenciaI4Si5.Location = new System.Drawing.Point(3, 16);
+            this.rbtnReferenciaI4Si5.Name = "rbtnReferenciaI4Si5";
+            this.rbtnReferenciaI4Si5.Size = new System.Drawing.Size(34, 22);
+            this.rbtnReferenciaI4Si5.TabIndex = 2;
+            this.rbtnReferenciaI4Si5.TabStop = true;
+            this.rbtnReferenciaI4Si5.Text = "Si";
+            this.rbtnReferenciaI4Si5.UseVisualStyleBackColor = true;
+            
             // 
-            // radioButton6
+            // rbtnReferenciaI4No5
             // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Dock = System.Windows.Forms.DockStyle.Right;
-            this.radioButton6.Location = new System.Drawing.Point(43, 16);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(39, 22);
-            this.radioButton6.TabIndex = 3;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "No";
-            this.radioButton6.UseVisualStyleBackColor = true;
+            this.rbtnReferenciaI4No5.AutoSize = true;
+            this.rbtnReferenciaI4No5.Dock = System.Windows.Forms.DockStyle.Right;
+            this.rbtnReferenciaI4No5.Location = new System.Drawing.Point(43, 16);
+            this.rbtnReferenciaI4No5.Name = "rbtnReferenciaI4No5";
+            this.rbtnReferenciaI4No5.Size = new System.Drawing.Size(39, 22);
+            this.rbtnReferenciaI4No5.TabIndex = 3;
+            this.rbtnReferenciaI4No5.TabStop = true;
+            this.rbtnReferenciaI4No5.Text = "No";
+            this.rbtnReferenciaI4No5.UseVisualStyleBackColor = true;
+            
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.radioButton5);
-            this.groupBox5.Controls.Add(this.radioButton6);
+            this.groupBox5.Controls.Add(this.rbtnReferenciaI4Si5);
+            this.groupBox5.Controls.Add(this.rbtnReferenciaI4No5);
             this.groupBox5.Location = new System.Drawing.Point(669, 161);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(85, 41);
@@ -269,11 +273,12 @@
             this.btnTerminar.OnHoverTextColor = System.Drawing.Color.White;
             this.btnTerminar.selected = false;
             this.btnTerminar.Size = new System.Drawing.Size(133, 37);
-            this.btnTerminar.TabIndex = 43;
+            this.btnTerminar.TabIndex = 56;
             this.btnTerminar.Text = "Terminar";
             this.btnTerminar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnTerminar.Textcolor = System.Drawing.Color.White;
             this.btnTerminar.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTerminar.Click += new System.EventHandler(this.btnTerminar_Click);
             // 
             // Form3
             // 
@@ -283,7 +288,7 @@
             this.ClientSize = new System.Drawing.Size(796, 445);
             this.Controls.Add(this.btnTerminar);
             this.Controls.Add(this.panel_Inicio);
-            this.Controls.Add(this.btnAtras);
+            this.Controls.Add(this.btnReferenciaI2Atras);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.groupBox4);
@@ -306,18 +311,18 @@
         }
 
         #endregion
-        public Bunifu.Framework.UI.BunifuFlatButton btnAtras;
+        public Bunifu.Framework.UI.BunifuFlatButton btnReferenciaI2Atras;
         public Bunifu.Framework.UI.BunifuFlatButton btnCancelar;
         private System.Windows.Forms.Panel panel_Inicio;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton rbtnReferenciaI4Si4;
+        private System.Windows.Forms.RadioButton rbtnReferenciaI4No4;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.RadioButton rbtnReferenciaI4Si5;
+        private System.Windows.Forms.RadioButton rbtnReferenciaI4No5;
         private System.Windows.Forms.GroupBox groupBox5;
         public Bunifu.Framework.UI.BunifuFlatButton btnTerminar;
     }

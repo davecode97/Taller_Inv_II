@@ -157,6 +157,7 @@
             this.btnReferenciaI3_3Sig.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnReferenciaI3_3Sig.Textcolor = System.Drawing.Color.White;
             this.btnReferenciaI3_3Sig.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReferenciaI3_3Sig.Click += new System.EventHandler(this.btnReferenciaI3_3Sig_Click);
             // 
             // btnReferenciaI3_3Atras
             // 

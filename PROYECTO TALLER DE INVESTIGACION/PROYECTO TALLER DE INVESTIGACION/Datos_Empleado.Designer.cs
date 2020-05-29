@@ -36,10 +36,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.txt_Nombre = new System.Windows.Forms.TextBox();
+            this.txt_Edad = new System.Windows.Forms.TextBox();
+            this.txt_Puesto = new System.Windows.Forms.TextBox();
+            this.cbx_Turno = new System.Windows.Forms.ComboBox();
             this.btnSiguiente = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnCancelar = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel_Inicio.SuspendLayout();
@@ -118,38 +118,38 @@
             this.label5.TabIndex = 42;
             this.label5.Text = "Turno:";
             // 
-            // textBox1
+            // txt_Nombre
             // 
-            this.textBox1.Location = new System.Drawing.Point(189, 106);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(248, 20);
-            this.textBox1.TabIndex = 43;
+            this.txt_Nombre.Location = new System.Drawing.Point(189, 106);
+            this.txt_Nombre.Name = "txt_Nombre";
+            this.txt_Nombre.Size = new System.Drawing.Size(248, 20);
+            this.txt_Nombre.TabIndex = 43;
             // 
-            // textBox2
+            // txt_Edad
             // 
-            this.textBox2.Location = new System.Drawing.Point(189, 162);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(122, 20);
-            this.textBox2.TabIndex = 44;
+            this.txt_Edad.Location = new System.Drawing.Point(189, 162);
+            this.txt_Edad.Name = "txt_Edad";
+            this.txt_Edad.Size = new System.Drawing.Size(122, 20);
+            this.txt_Edad.TabIndex = 44;
             // 
-            // textBox3
+            // txt_Puesto
             // 
-            this.textBox3.Location = new System.Drawing.Point(189, 221);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(248, 20);
-            this.textBox3.TabIndex = 45;
+            this.txt_Puesto.Location = new System.Drawing.Point(189, 221);
+            this.txt_Puesto.Name = "txt_Puesto";
+            this.txt_Puesto.Size = new System.Drawing.Size(248, 20);
+            this.txt_Puesto.TabIndex = 45;
             // 
-            // comboBox1
+            // cbx_Turno
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbx_Turno.FormattingEnabled = true;
+            this.cbx_Turno.Items.AddRange(new object[] {
             "Matutino",
             "Vespertino",
             "Rotativo"});
-            this.comboBox1.Location = new System.Drawing.Point(190, 288);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 46;
+            this.cbx_Turno.Location = new System.Drawing.Point(190, 288);
+            this.cbx_Turno.Name = "cbx_Turno";
+            this.cbx_Turno.Size = new System.Drawing.Size(121, 21);
+            this.cbx_Turno.TabIndex = 46;
             // 
             // btnSiguiente
             // 
@@ -184,6 +184,7 @@
             this.btnSiguiente.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnSiguiente.Textcolor = System.Drawing.Color.White;
             this.btnSiguiente.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
             // 
             // btnCancelar
             // 
@@ -229,10 +230,10 @@
             this.ClientSize = new System.Drawing.Size(796, 445);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnSiguiente);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.cbx_Turno);
+            this.Controls.Add(this.txt_Puesto);
+            this.Controls.Add(this.txt_Edad);
+            this.Controls.Add(this.txt_Nombre);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -259,10 +260,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox txt_Nombre;
+        private System.Windows.Forms.TextBox txt_Edad;
+        private System.Windows.Forms.TextBox txt_Puesto;
+        private System.Windows.Forms.ComboBox cbx_Turno;
         public Bunifu.Framework.UI.BunifuFlatButton btnSiguiente;
         public Bunifu.Framework.UI.BunifuFlatButton btnCancelar;
     }

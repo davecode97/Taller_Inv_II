@@ -36,7 +36,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel_Inicio = new System.Windows.Forms.Panel();
-            this.btnAtras = new Bunifu.Framework.UI.BunifuFlatButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel_Inicio.SuspendLayout();
             this.SuspendLayout();
@@ -164,47 +163,12 @@
             this.panel_Inicio.Size = new System.Drawing.Size(796, 75);
             this.panel_Inicio.TabIndex = 15;
             // 
-            // btnAtras
-            // 
-            this.btnAtras.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.btnAtras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.btnAtras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnAtras.BorderRadius = 5;
-            this.btnAtras.ButtonText = "Atras";
-            this.btnAtras.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAtras.DisabledColor = System.Drawing.Color.Gray;
-            this.btnAtras.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnAtras.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnAtras.Iconimage")));
-            this.btnAtras.Iconimage_right = null;
-            this.btnAtras.Iconimage_right_Selected = null;
-            this.btnAtras.Iconimage_Selected = null;
-            this.btnAtras.IconMarginLeft = 0;
-            this.btnAtras.IconMarginRight = 0;
-            this.btnAtras.IconRightVisible = true;
-            this.btnAtras.IconRightZoom = 0D;
-            this.btnAtras.IconVisible = true;
-            this.btnAtras.IconZoom = 50D;
-            this.btnAtras.IsTab = false;
-            this.btnAtras.Location = new System.Drawing.Point(465, 373);
-            this.btnAtras.Name = "btnAtras";
-            this.btnAtras.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.btnAtras.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.btnAtras.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnAtras.selected = false;
-            this.btnAtras.Size = new System.Drawing.Size(133, 37);
-            this.btnAtras.TabIndex = 50;
-            this.btnAtras.Text = "Atras";
-            this.btnAtras.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnAtras.Textcolor = System.Drawing.Color.White;
-            this.btnAtras.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
             // InstruccionesForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(796, 445);
-            this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnInstruccionesSiguiente);
             this.Controls.Add(this.label1);
@@ -230,6 +194,5 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel_Inicio;
-        public Bunifu.Framework.UI.BunifuFlatButton btnAtras;
     }
 }

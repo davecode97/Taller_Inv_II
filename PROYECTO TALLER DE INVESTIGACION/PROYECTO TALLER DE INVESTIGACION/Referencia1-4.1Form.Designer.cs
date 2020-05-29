@@ -33,13 +33,13 @@
             this.btnCancelar = new Bunifu.Framework.UI.BunifuFlatButton();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.rbtnReferenciaI4Si3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.rbtnReferenciaI4No3 = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.rbtnReferenciaI4Si2 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.rbtnReferenciaI4No2 = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.rbtnReferenciaI4Si1 = new System.Windows.Forms.RadioButton();
-            this.rbtnReferenciaI2No1 = new System.Windows.Forms.RadioButton();
+            this.rbtnReferenciaI4No1 = new System.Windows.Forms.RadioButton();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -127,7 +127,7 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.rbtnReferenciaI4Si3);
-            this.groupBox3.Controls.Add(this.radioButton4);
+            this.groupBox3.Controls.Add(this.rbtnReferenciaI4No3);
             this.groupBox3.Location = new System.Drawing.Point(669, 252);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(85, 41);
@@ -146,23 +146,23 @@
             this.rbtnReferenciaI4Si3.Text = "Si";
             this.rbtnReferenciaI4Si3.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // rbtnReferenciaI4No3
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.radioButton4.Location = new System.Drawing.Point(43, 16);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(39, 22);
-            this.radioButton4.TabIndex = 3;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "No";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.rbtnReferenciaI4No3.AutoSize = true;
+            this.rbtnReferenciaI4No3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.rbtnReferenciaI4No3.Location = new System.Drawing.Point(43, 16);
+            this.rbtnReferenciaI4No3.Name = "rbtnReferenciaI4No3";
+            this.rbtnReferenciaI4No3.Size = new System.Drawing.Size(39, 22);
+            this.rbtnReferenciaI4No3.TabIndex = 3;
+            this.rbtnReferenciaI4No3.TabStop = true;
+            this.rbtnReferenciaI4No3.Text = "No";
+            this.rbtnReferenciaI4No3.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.White;
             this.groupBox2.Controls.Add(this.rbtnReferenciaI4Si2);
-            this.groupBox2.Controls.Add(this.radioButton2);
+            this.groupBox2.Controls.Add(this.rbtnReferenciaI4No2);
             this.groupBox2.Location = new System.Drawing.Point(669, 169);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(85, 41);
@@ -181,22 +181,22 @@
             this.rbtnReferenciaI4Si2.Text = "Si";
             this.rbtnReferenciaI4Si2.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rbtnReferenciaI4No2
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.radioButton2.Location = new System.Drawing.Point(43, 16);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(39, 22);
-            this.radioButton2.TabIndex = 3;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "No";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rbtnReferenciaI4No2.AutoSize = true;
+            this.rbtnReferenciaI4No2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.rbtnReferenciaI4No2.Location = new System.Drawing.Point(43, 16);
+            this.rbtnReferenciaI4No2.Name = "rbtnReferenciaI4No2";
+            this.rbtnReferenciaI4No2.Size = new System.Drawing.Size(39, 22);
+            this.rbtnReferenciaI4No2.TabIndex = 3;
+            this.rbtnReferenciaI4No2.TabStop = true;
+            this.rbtnReferenciaI4No2.Text = "No";
+            this.rbtnReferenciaI4No2.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.rbtnReferenciaI4Si1);
-            this.groupBox1.Controls.Add(this.rbtnReferenciaI2No1);
+            this.groupBox1.Controls.Add(this.rbtnReferenciaI4No1);
             this.groupBox1.Location = new System.Drawing.Point(669, 96);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(85, 41);
@@ -215,17 +215,17 @@
             this.rbtnReferenciaI4Si1.Text = "Si";
             this.rbtnReferenciaI4Si1.UseVisualStyleBackColor = true;
             // 
-            // rbtnReferenciaI2No1
+            // rbtnReferenciaI4No1
             // 
-            this.rbtnReferenciaI2No1.AutoSize = true;
-            this.rbtnReferenciaI2No1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.rbtnReferenciaI2No1.Location = new System.Drawing.Point(43, 16);
-            this.rbtnReferenciaI2No1.Name = "rbtnReferenciaI2No1";
-            this.rbtnReferenciaI2No1.Size = new System.Drawing.Size(39, 22);
-            this.rbtnReferenciaI2No1.TabIndex = 3;
-            this.rbtnReferenciaI2No1.TabStop = true;
-            this.rbtnReferenciaI2No1.Text = "No";
-            this.rbtnReferenciaI2No1.UseVisualStyleBackColor = true;
+            this.rbtnReferenciaI4No1.AutoSize = true;
+            this.rbtnReferenciaI4No1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.rbtnReferenciaI4No1.Location = new System.Drawing.Point(43, 16);
+            this.rbtnReferenciaI4No1.Name = "rbtnReferenciaI4No1";
+            this.rbtnReferenciaI4No1.Size = new System.Drawing.Size(39, 22);
+            this.rbtnReferenciaI4No1.TabIndex = 3;
+            this.rbtnReferenciaI4No1.TabStop = true;
+            this.rbtnReferenciaI4No1.Text = "No";
+            this.rbtnReferenciaI4No1.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -323,6 +323,7 @@
             this.btnSiguiente.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnSiguiente.Textcolor = System.Drawing.Color.White;
             this.btnSiguiente.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
             // 
             // Referencia1_4Form
             // 
@@ -363,13 +364,13 @@
         public Bunifu.Framework.UI.BunifuFlatButton btnCancelar;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.RadioButton rbtnReferenciaI4Si3;
-        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton rbtnReferenciaI4No3;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.RadioButton rbtnReferenciaI4Si2;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton rbtnReferenciaI4No2;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton rbtnReferenciaI4Si1;
-        private System.Windows.Forms.RadioButton rbtnReferenciaI2No1;
+        private System.Windows.Forms.RadioButton rbtnReferenciaI4No1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;

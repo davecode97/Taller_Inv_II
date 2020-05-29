@@ -28,13 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ResultadosFinalesForm));
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource3 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource4 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource5 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.label1 = new System.Windows.Forms.Label();
             this.panel_Inicio = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnResultadosFinalesVolver = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.CE_EmpleadoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.CE_Seccion_IBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.CE_Seccion_IIBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.CE_Seccion_IIIBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.CE_Seccion_IVBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel_Inicio.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CE_EmpleadoBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CE_Seccion_IBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CE_Seccion_IIBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CE_Seccion_IIIBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CE_Seccion_IVBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -104,21 +121,72 @@
             this.btnResultadosFinalesVolver.Textcolor = System.Drawing.Color.White;
             this.btnResultadosFinalesVolver.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
+            // reportViewer1
+            // 
+            reportDataSource1.Name = "DataSet_Empleado";
+            reportDataSource1.Value = this.CE_EmpleadoBindingSource;
+            reportDataSource2.Name = "DataSet_Seccion_I";
+            reportDataSource2.Value = this.CE_Seccion_IBindingSource;
+            reportDataSource3.Name = "DataSet_Seccion_II";
+            reportDataSource3.Value = this.CE_Seccion_IIBindingSource;
+            reportDataSource4.Name = "DataSet_Seccion_III";
+            reportDataSource4.Value = this.CE_Seccion_IIIBindingSource;
+            reportDataSource5.Name = "DataSet_Seccion_IV";
+            reportDataSource5.Value = this.CE_Seccion_IVBindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource2);
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource3);
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource4);
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource5);
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "PROYECTO_TALLER_DE_INVESTIGACION.reporte_Empleados.rdlc";
+            this.reportViewer1.Location = new System.Drawing.Point(28, 93);
+            this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.ServerReport.BearerToken = null;
+            this.reportViewer1.Size = new System.Drawing.Size(578, 316);
+            this.reportViewer1.TabIndex = 37;
+            // 
+            // CE_EmpleadoBindingSource
+            // 
+            this.CE_EmpleadoBindingSource.DataSource = typeof(CapaEntidades.CE_Empleado);
+            // 
+            // CE_Seccion_IBindingSource
+            // 
+            this.CE_Seccion_IBindingSource.DataSource = typeof(CapaEntidades.CE_Seccion_I);
+            // 
+            // CE_Seccion_IIBindingSource
+            // 
+            this.CE_Seccion_IIBindingSource.DataSource = typeof(CapaEntidades.CE_Seccion_II);
+            // 
+            // CE_Seccion_IIIBindingSource
+            // 
+            this.CE_Seccion_IIIBindingSource.DataSource = typeof(CapaEntidades.CE_Seccion_III);
+            // 
+            // CE_Seccion_IVBindingSource
+            // 
+            this.CE_Seccion_IVBindingSource.DataSource = typeof(CapaEntidades.CE_Seccion_IV);
+            // 
             // ResultadosFinalesForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(796, 445);
+            this.Controls.Add(this.reportViewer1);
             this.Controls.Add(this.btnResultadosFinalesVolver);
             this.Controls.Add(this.panel_Inicio);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ResultadosFinalesForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ResultadosFinalesForm";
+            this.Load += new System.EventHandler(this.ResultadosFinalesForm_Load);
             this.panel_Inicio.ResumeLayout(false);
             this.panel_Inicio.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CE_EmpleadoBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CE_Seccion_IBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CE_Seccion_IIBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CE_Seccion_IIIBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CE_Seccion_IVBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -129,5 +197,11 @@
         private System.Windows.Forms.Panel panel_Inicio;
         private System.Windows.Forms.PictureBox pictureBox1;
         public Bunifu.Framework.UI.BunifuFlatButton btnResultadosFinalesVolver;
+        private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
+        private System.Windows.Forms.BindingSource CE_EmpleadoBindingSource;
+        private System.Windows.Forms.BindingSource CE_Seccion_IBindingSource;
+        private System.Windows.Forms.BindingSource CE_Seccion_IIBindingSource;
+        private System.Windows.Forms.BindingSource CE_Seccion_IIIBindingSource;
+        private System.Windows.Forms.BindingSource CE_Seccion_IVBindingSource;
     }
 }

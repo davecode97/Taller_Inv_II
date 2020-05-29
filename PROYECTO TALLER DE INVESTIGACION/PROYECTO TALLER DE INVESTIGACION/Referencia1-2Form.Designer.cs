@@ -244,6 +244,7 @@
             this.btnReferenciaI2Sig.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnReferenciaI2Sig.Textcolor = System.Drawing.Color.White;
             this.btnReferenciaI2Sig.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReferenciaI2Sig.Click += new System.EventHandler(this.btnReferenciaI2Sig_Click);
             // 
             // panel_Inicio
             // 
