@@ -1,6 +1,5 @@
 # Taller_Inv_II
-Proyecto de la materia Taller de Investigación II
-
+Proyecto de la materia Taller de Investigación II donde se desarrollo el sistema NORMA-035.
 Equipo:
 + David Llanes
 + Miguel Espinoza
