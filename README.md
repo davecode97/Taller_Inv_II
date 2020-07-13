@@ -13,7 +13,7 @@ CRUD en SQL Server.
 
 Equipo:
 + David Llanes
-+ Miguel Espinoza
++ Sergio Flores
 
 
 Herramientas Utilizadas:
