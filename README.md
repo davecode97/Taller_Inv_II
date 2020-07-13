@@ -3,6 +3,14 @@ Proyecto de la materia Taller de Investigación II donde se desarrollo el sistem
 
 CRUD en SQL Server.
 
+**Arquitectura NCAPAS**
+
++ Capa Presentación 
++ Capa Negocio
++ Capa Datos
++ Capa Entidades
+
+
 Equipo:
 + David Llanes
 + Miguel Espinoza
