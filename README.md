@@ -1,9 +1,12 @@
 # Taller_Inv_II
 Proyecto de la materia Taller de Investigación II donde se desarrollo el sistema NORMA-035.
+
+CRUD en SQL Server.
+
 Equipo:
 + David Llanes
 + Miguel Espinoza
-+ Sergio Flores
+
 
 Herramientas Utilizadas:
 Bunifu UI Framework, 
